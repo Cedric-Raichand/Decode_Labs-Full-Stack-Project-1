@@ -27,5 +27,9 @@
     }
     .service-card {
     width: 100%;
-}
+    }
+    form,
+   .contact-info {
+    width: 100%;
+   }
 }

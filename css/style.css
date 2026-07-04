@@ -215,3 +215,62 @@ footer {
 .service-card span {
     font-weight: bold;
 }
+/* Contact Page */
+
+.contact {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #1e40af;
+}
+
+.contact-info {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+    text-align: left;
+}
