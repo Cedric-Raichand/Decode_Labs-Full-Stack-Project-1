@@ -14,4 +14,12 @@
     main {
         padding: 25px;
     }
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .feature-card {
+        width: 100%;
+    }
 }
